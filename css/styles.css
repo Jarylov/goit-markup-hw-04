@@ -10,6 +10,7 @@
   
 
     /* BG colors */
+    --primary-bg-cl: rgba(46, 47, 66, 0.7);
     --secondary-bg-cl: #4D5AE5;
     --light-bg: #F4F4FD;
     --dark-bg: #2E2F42;
@@ -138,9 +139,15 @@ color: var(--secondary-bg-cl);
 
 .hero {
 height: 600px;
-background: #2E2F42;
+background-color: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
+
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+background-size: 1440рх cover;
+
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .hero-title {
