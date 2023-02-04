@@ -137,7 +137,9 @@ color: var(--secondary-bg-cl);
 
 /* hero section */
 
+
 .hero {
+    display: flex;
 height: 600px;
 background-color: #2E2F42;
 padding-top: 188px;
@@ -148,6 +150,7 @@ background-size: 1440рх;
 background-position: center;
 background-repeat: no-repeat;
 }
+
 
 .hero-title {
     font-weight: 700;
@@ -219,10 +222,7 @@ h2 {
     
 }
 
-.clause {
-    width: 264px;
-    height: 104px;
-}
+
 
 
 .team-card-kontent {
@@ -240,6 +240,37 @@ h2 {
     justify-content: space-between;
 }
 
+.social {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-item {
+
+}
+
+.social-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+
+background-color: var(--secondary-bg-cl);
+border-radius: 50%;
+}
+
+
+.social-icon {
+fill: var(--accent-txt-cl);
+}
+
+.social-link:hover, 
+.social-link:focus {
+  background-color: var(--hover-bt);
+}
 
 
 
