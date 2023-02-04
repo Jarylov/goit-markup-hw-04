@@ -272,6 +272,22 @@ fill: var(--accent-txt-cl);
   background-color: var(--hover-bt);
 }
 
+/* customers */
+
+.customers {
+padding-top: 130px;
+padding-bottom: 120px;
+}
+
+.icon-logo {
+    width: 168px;
+    height: 88px;
+    fill: #8E8F99;
+    box-sizing: border-box;
+    border: 1px solid #8E8F99;
+        border-radius: 4px;
+}
+
 
 
 
