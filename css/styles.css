@@ -222,9 +222,6 @@ h2 {
     
 }
 
-
-
-
 .team-card-kontent {
     display: flex;
     flex-direction: column;
@@ -245,10 +242,6 @@ display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
-}
-
-.social-item {
-
 }
 
 .social-link {
@@ -279,6 +272,10 @@ padding-top: 130px;
 padding-bottom: 120px;
 }
 
+.logo-link {
+
+}
+
 .icon-logo {
     width: 168px;
     height: 88px;
@@ -286,6 +283,14 @@ padding-bottom: 120px;
     box-sizing: border-box;
     border: 1px solid #8E8F99;
         border-radius: 4px;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+    fill: var(--hover-bt);
+box-sizing: border-box;
+    border: 1px solid #404BBF;
+    border-radius: 4px;
 }
 
 
@@ -361,6 +366,8 @@ background: var(--light-bg)
 
 
 .footer {
+display: flex;
+flex-wrap: wrap;
 background: #2E2F42;
 padding-top: 100px;
 padding-bottom: 100px;
@@ -381,6 +388,7 @@ padding-bottom: 100px;
 .socmedia {
     width: 208px;
     height: 80px;
+   
     
 }
 
