@@ -314,7 +314,9 @@ padding-bottom: 120px;
 
 .logo-link {
 display: flex;
-justify-self: center;
+width: 168px;
+height: 88px;
+justify-content: center;
 align-items: center;
 color: #8E8F99;
 box-sizing: border-box;
@@ -323,19 +325,18 @@ border-radius: 4px;
 }
 
 .icon-logo {
-width: 168px;
-height: 88px;
+
 fill: currentColor;
     
 }
 
-.icon-logo:hover,
-.icon-logo:focus {
-    fill: var(--hover-bt);
-box-sizing: border-box;
-    border: 1px solid #404BBF;
-    border-radius: 4px;
+.logo-link:hover,
+.logo-link:focus {
+color: var(--hover-bt);
+border: 1px solid #404BBF;
 }
+
+/*  */
 
 
 
